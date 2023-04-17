@@ -186,16 +186,7 @@ def FileUploadServerHandlerClass(output_dir, auth, debug):
 
             f.write(("<span style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">%s</span><br>" % info).encode())
             f.write(("<br><a href=\"%s\" style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">back</a>" % self.headers['referer']).encode())
-            f.write(b"<hr><small style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">Powerd By: ")
-            length = f.tell()
-            f.seek(0)
-            self.send_response(200)
-            self.send_header("Content-type", "text/html; charset=utf-8")
-            self.send_header("Content-Length", str(length))
-            self.end_headers()
-            if f:
-                self.copyfile(f, self.wfile)
-                f.close()
+            f.close()
 
         def log_message(self, format, *args):
             if self._debug:
