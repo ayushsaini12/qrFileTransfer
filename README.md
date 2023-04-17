@@ -11,18 +11,6 @@
 
 You will find the most updated version of ```qr-filetransfer``` here. But if you want the most stable version, use ```pip``` to install it
 
-### Pip Install
-
-Global Install
-
-```pip3 install qr-filetransfer[extras]```
-
-Local Install
-
-```pip3 install --user qr-filetransfer[extras]```
-
-If you run into problems during the install, try removing the optional `[extras]` at the end of the command.
-
 ### Git Install
 
 ```bash
@@ -34,6 +22,12 @@ $ cd qr-filetransfer
 
 # install the requirements
 $ pip3 install -r requirements.txt
+
+# Build Setup
+$ python setup.py build
+
+# Install setup
+$ python setup.py install
 ```
 
 
