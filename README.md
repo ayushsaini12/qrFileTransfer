@@ -3,9 +3,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/ayushsaini12/qrFileTransfer/master/logo.png"><br></p>
 
 <p align="center">
-<a href="https://pypi.org/project/qr-filetransfer/"><img src="https://img.shields.io/badge/release-v2.5-blue.svg"></a>
-<a href="https://pepy.tech/badge/qr-filetransfer"><img src="https://pepy.tech/badge/qr-filetransfer"></a>
-<a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 <a href="https://img.shields.io/badge/support-Linux%20|%20MacOS%20|%20Windows%20-blue.svg"><img src="https://img.shields.io/badge/support-Linux%20|%20MacOS%20|%20Windows%20-blue.svg"></a>
 </p>
 
