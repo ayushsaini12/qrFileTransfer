@@ -9,8 +9,6 @@
 <p align="center">🙌Transfer files over WiFi between your computer and your smartphone from the terminal🙌</p>
 ## Installation
 
-You will find the most updated version of ```qr-filetransfer``` here. But if you want the most stable version, use ```pip``` to install it
-
 ### Git Install
 
 ```bash
